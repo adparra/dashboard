@@ -87,19 +87,19 @@ let updatePorcentajes= () => {
 
     let message_money= 
     `<p class="mb-0"><span class="text-sm ${clase_cambio(porcentaje_de_cambio(valor_actual_money,valor_previo_money))} 
-    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_money,valor_previo_money)} </span> 
+    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_money,valor_previo_money)}% </span> 
     ${mensaje_tiempo_money} </p>`;
     let message_users=
     `<p class="mb-0"><span class="text-sm ${clase_cambio(porcentaje_de_cambio(valor_actual_users,valor_previo_users))} 
-    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_users,valor_previo_users)} </span> 
+    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_users,valor_previo_users)}% </span> 
     ${mensaje_tiempo_users} </p>`;
     let message_clients=
     `<p class="mb-0"><span class="text-sm ${clase_cambio(porcentaje_de_cambio(valor_actual_clients,valor_previo_clients))} 
-    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_clients,valor_previo_clients)} </span> 
+    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_clients,valor_previo_clients)}% </span> 
     ${mensaje_tiempo_clients} </p>`;
     let message_sales=
     `<p class="mb-0"><span class="text-sm ${clase_cambio(porcentaje_de_cambio(valor_actual_sales,valor_previo_sales))} 
-    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_sales,valor_previo_sales)} </span> 
+    font-weight-bolder"> ${porcentaje_de_cambio(valor_actual_sales,valor_previo_sales)}% </span> 
     ${mensaje_tiempo_sales} </p>`;
 
     let listOfElements= document.getElementsByClassName('card-footer p-3');
